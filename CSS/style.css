@@ -1,0 +1,557 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 50px; /* altura do seu footer */
+}
+
+h1, h2, h3, h4, h5, li, a, p {
+	font-weight: 600;
+	font-family: 'Open Sans', serif;
+	color: #090809;
+}
+
+ul  {
+	margin-top: 2px;
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 500px){
+
+	ul  {
+		display: block;
+	}
+
+	li  {
+		margin: 0px 30px;
+		display: inline;
+	}
+
+	.menuPrincipalContainer {
+		width: 100%;
+		height: 30px;
+	}
+
+	.imagemHeader {
+		left: 10%;
+		transform: translateX(-10%);
+		-webkit-transform: translateX(-10%);
+		-moz-transform: translateX(-10%);
+		-o-transform: translateX(-10%);
+		-ms-transform: translateX(-10%);
+	}
+
+	.headerTextMe{
+		left: 30%;
+	}
+
+	.textResponsive{
+		font-size: 1em; 
+	}
+
+	.textResponsiveH1{
+		font-size: 2em; 
+	}
+
+	.textResponsiveH4{
+		font-size: 0.9em; 
+	}
+
+	.textResponsiveH1{
+		font-size: 2em; 
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	li  {
+		margin: 5px 10px;
+		display: block;
+	}
+
+	.menuPrincipalContainer {
+		position: relative;
+		width: 100%;
+		height: 100px;
+	}
+
+	.imagemHeader {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+
+	.textResponsive{
+		font-size: 1em; 
+	}
+
+	.headerTextMe{
+		display: none;
+	}
+
+	#linkedinLink{
+	display: none;
+	}
+
+	#facebookLink{
+		display: none;
+	}
+
+	.textResponsiveH1{
+		font-size: 1em; 
+	}
+
+	.textResponsiveH3 {
+		font-size: 1em; 
+	}
+
+	.textResponsiveH4{
+		font-size: 0.8em; 
+	}
+
+	.textResponsiveP{
+		font-size: 1em; 
+	}
+}
+
+@media screen and (max-width: 320px){
+
+	.textResponsiveH1{
+		font-size: 1.2em; 
+	}
+
+	.textResponsiveH3 {
+		font-size: 0.9em; 
+	}
+
+	.textResponsiveH4{
+		font-size: 0.8em; 
+	}
+
+	.textResponsiveP{
+		font-size: 0.8em; 
+	}
+
+	.headerTextMe{
+		display: none;
+	}
+}
+
+.padraoColor {
+	background-color: #FB4D3D;
+}
+
+/*############################################################# HEADER #############################################################*/
+
+.headerClass {
+	width: 100%;
+	height: 100px;
+}
+
+.imagemHeader {
+	position: absolute;
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+}
+
+#headerImageMe {
+	border-radius: 60%;
+}
+
+.headerTextMe {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+.headerContainer {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	width: 100%;
+ 	max-width: 600px;
+	height: 100px;
+}
+
+/*############################################################# NAVBAR #############################################################*/
+
+.menuPrincipalContainer {
+	-moz-box-shadow: 0px 8px 12px #000000;
+	-webkit-box-shadow: 0px 8px 12px #000000;
+	box-shadow: 0px 8px 12px #000000;
+}
+
+.menuPrincipal {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	width: 100%;
+	max-width: 400px;
+	height: 30px;
+}
+
+/*############################################################# SECTION #############################################################*/
+
+.principalContainer {
+	position: relative;
+	margin: 20px auto 20px auto;
+	width: 100%;
+ 	height: auto;	
+ 	max-width: 650px;
+}
+
+.sobreAlinhaTitulos {
+	margin-left: 5px
+}
+
+.principalChangeRight {
+	margin-top: 5px;
+	left: 85%;
+	width: 100%;
+	height: auto;
+	max-width: 650px;
+}
+
+.principalChangeLeft {
+	margin-top: 2px;
+	left: 85%;
+	width: 100%;
+	height: auto;
+	max-width: 650px;
+
+}
+
+.sobre {
+	width: 100%;
+	height: auto;
+	max-width: 320px;
+	display: inline;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+#botaoRight {
+	position: absolute;
+	left: 80%;
+	width: 100%;
+	max-width: 32px;
+	height: auto;
+	display: inline-block;
+}
+
+#botaoLeft {
+	position: absolute;
+	left: 80%;
+	width: 100%;
+	max-width: 32px;
+	height: auto;
+	display: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.principalExperiencias  {
+	position: relative;
+	width: 100%;
+ 	height: 100%;	
+ 	display: none;
+}
+
+.principalExperienciasTitulo  {
+
+	margin: 25px 0;
+	width: 100%;
+	height: 40px;
+	max-width: 650px; 
+}
+
+.experienciaDiv  {
+	position: relative;
+	border-bottom: 1px solid #22313F; 
+	margin-top: 10px;
+	width: 100%;
+ 	height: auto;	
+ 	max-width: 650px;
+}
+
+.experienciaFoto  {
+	position: relative;
+	margin-left: 5px;
+	width: 30%;
+ 	height: auto;	
+ 	max-width: 60px;
+
+}
+
+.experienciaTexto  {
+	position: relative;
+	margin-left: 40px;
+ 	display: inline-block;
+}
+
+.experiencia {
+	top: 20%;
+	left: 2%;
+	width: 100%;
+ 	height: auto;
+}
+
+.experienciaTempo {
+	top: 30%;
+	left: 2.5%;
+	width: 100%;
+ 	height: auto;	
+ 	max-width: 500px;
+}
+
+.experienciaTextoInfo {
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.experienciaInfo {
+	position: relative;
+	margin-left: 5px;
+	top: 50%;
+	left: 0%;
+	width: 100%;
+ 	height: auto;	
+ 	max-width: 650px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+#principalSobreMim {
+	position: relative;
+}
+
+#principalSobreMimDiv {
+	position: relative;
+	width: 100%;
+	max-width: 650px; 
+	clear: both;
+}
+
+#sobreMimDadosIcon  {
+	float: left;
+	width: 20%;
+	height: auto;
+	max-width: 40px;
+	margin-left: 10px;
+	height: auto;
+}
+
+
+.principalSobreMimDadosTitulo {
+	margin-top: 5px;
+	width: 100%;
+	height: 40px;
+	max-width: 650px;
+}
+
+.principalSobreMimDados {
+	margin: 15px 0px;
+	width: 100%;
+	height: 50px;
+	max-width: 650px; 
+}
+
+.sobreMimDadosTexto  {
+	margin-left: 65px;
+}
+
+.sobreMimDadosAlinhar  {
+	line-height: 40px;
+}
+
+#principalFormacaoAcademia{
+	width: 100%;
+	height: auto;
+	max-width: 650px;
+	border-bottom: 1px solid #22313F;
+}
+
+.formacaoAcademiaInfo1{
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+.academicIcon {
+	max-width: 40px;
+}
+
+#principalSobreMimObjetivo {
+	border-bottom: 1px solid #22313F;
+}
+
+.SobreMimObjetivo {
+	margin: 8px 5px;
+}
+
+.SobreMimHabilidades {
+	margin: 8px 5px;
+}
+
+/*############################################################# COMPJUNIOR #############################################################*/
+
+#crachaComp {
+	position: relative;
+	margin-top: 40px;
+	left:20%;
+	width: 24%; /*150px Relação de proporção 200px / 650px = 31%%*/
+	height: auto;
+	max-width: 150px;
+	transform: rotate(336deg) ;
+	-webkit-transform: rotate(336deg) ;
+	-moz-transform: rotate(336deg) ;
+	-o-transform: rotate(336deg) ;
+	-ms-transform: rotate(336deg) ;
+}
+
+#CompTitulo {
+	text-align: center;
+	display: inherit;
+}
+
+#CompText {
+	margin-top: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
+	text-align: justify;
+	display: inherit;
+}
+
+#CompText2 {
+	margin-top: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
+	text-align: justify;
+	display: inherit;
+}
+
+/*############################################################# FOOTER #############################################################*/
+
+.footerClass {
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom:0; 
+}
+
+.footerContainer {
+	position: absolute;
+	top: 5px;
+	margin: 0;
+	width: 8.9%; /*80px Relação de proporção .footerClass 80px / 900px = 8.9%*/
+	max-width: 80px; 
+	height: 64%;  /*32px Relação de proporção .footerClass 32px / 50px = 64%*/
+	max-height: 32px;
+}
+
+.footerContainerText{
+	position: relative;
+	margin: auto;
+	top: 10px;
+	width: 100%; 
+	max-width: 306px; 
+	height: 100%;  /*32px Relação de proporção .footerClass 32px / 50px = 64%*/
+	max-height: 20px;
+}
+
+#contatoTitulo {
+	text-align: center;
+}
+
+#linkedinLink {
+	position: relative;
+	margin-top: 5px;
+	width: 14%; /*85px Relação de proporção .principalContainer 32px / 650px = 40%*/
+	max-width: 85px; 
+	height: 100%; 
+	max-height: 150px;
+	display: block;
+}
+
+#googleLink {
+	position: relative;
+	margin-top: 5px;
+	width: 14%;  /*85px Relação de proporção .principalContainer 32px / 650px = 40%*/
+	height: 100%; 
+	max-width: 200px;
+	max-height: 150px;
+	display: block;
+}
+#facebookLink {
+	position: relative;
+	margin-top: 10px;
+	width: 14%; /*85px Relação de proporção .principalContainer 32px / 650px = 40%*/
+	max-width: 85px;
+	height: 100%;
+	max-height: 85px;
+	max-height: 150px;
+	display: block;
+
+}
+
+#contatoLink {
+	background-color: red;
+	position: relative;
+	width: 100%; 
+	height: 100%; 
+}
+
+.iconLink {
+	width: 100%;
+	max-width: 85px;
+	height: 100%;
+	max-height: 85px;
+}
