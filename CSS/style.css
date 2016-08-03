@@ -278,10 +278,21 @@ textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
-#botaoRight {
+
+.experienciaSetaDiv {
 	position: absolute;
-	left: 80%;
-	width: 100%;
+	margin-top: 8px;
+	left: 70%;
+	width: 19%;
+	width: 100px;
+	height: auto;
+	max-width: 100px;
+	height: auto;
+	display: inline-block;
+}
+
+#botaoRight {
+	width: 50%;
 	max-width: 32px;
 	height: auto;
 	display: inline-block;
