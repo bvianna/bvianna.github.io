@@ -278,8 +278,7 @@ textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
-
-.experienciaSetaDiv {
+.setaDivSobreExp {
 	position: absolute;
 	margin-top: 8px;
 	left: 70%;
@@ -299,8 +298,6 @@ textarea:focus, input:focus, select:focus {
 }
 
 #botaoLeft {
-	position: absolute;
-	left: 80%;
 	width: 100%;
 	max-width: 32px;
 	height: auto;
